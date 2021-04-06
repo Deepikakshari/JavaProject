@@ -12,7 +12,9 @@ public class HashMapSample {
 		hm.put(3,"paper");
 		System.out.println(hm);
 		hm.remove(1);//using key or value we can remove key value pair 
-		for(Map<K, V>.Entry<K, V>)
+	for(Map.Entry m : hm.entrySet()){    
+   System.out.println(m.getKey()+" "+m.getValue());    
+  }  
 
 	}
 
